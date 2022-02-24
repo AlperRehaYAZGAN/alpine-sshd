@@ -5,7 +5,7 @@ This is the example Docker Container for testing SSH utilities with Alpine Linux
 # Usage  
 Run Container:  
 ```bash
-docker run --name alyasshserver -p 2222:22 --rm -d alperreha/alpine-sshd  
+docker run --name alyasshserver -p 2222:22 --rm -d alperreha/alpine-sshd:1.0.0  
 ```
 
 Login Container with SSH:  
