@@ -1,5 +1,4 @@
 FROM alpine:3.9
-LABEL maintainer "Alper Reha YAZGAN - https://github.com/alperrehayazgan"
 EXPOSE 22
 COPY rootfs /app
 RUN chmod -R 777 /app
